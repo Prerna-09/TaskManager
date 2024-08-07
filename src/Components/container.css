@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh;    
+    background: #F2F2F2;      
+  }
+  
+  .box {
+   
+    width: 80%;  
+    height: 80%;    
+    max-width: 600px; 
+    padding: 20px;  
+    background: #A9D99C;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+   
+
+  }
+
+
+  .first{
+  margin-left: 200px;
+  
+  }
+
+  .first img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+  }
+  
+
+  .second{
+    background-color: #F2F2F2;
+    height: 80%;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    
+  }
+
+  .second h2{
+    font-size: 25px;
+  }
+
+  .second p{
+    color: gray;
+    font-size: 15px;
+    margin-top: -10px;
+    
+  }
+
+  .card{
+    width: 60%;
+    height: 50%;
+    background-color: #A9D99C;
+    text-align: center;
+    margin-left: 120px;
+    border-radius: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+  
+  }
+ 
+  .card button{
+    background-color: #6CBF60;
+    padding: 20px 40px;
+    border-color: white;
+    border-radius: 50px;
+  }
+
+  
+
+  @media (max-width:480px){
+    .first img{
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
+    }
+  }
+
+  @media (max-width:360px){
+    .first img{
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    }
+  }
+  @media (max-width:300px){
+    .first img{
+    width: 40px;
+    height: 40px;
+   margin-left: -40px;
+    }
+  }
+
+@media (max-width:390px){
+  .card{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
+  
